@@ -1,0 +1,173 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  position: fixed;
+  background-color: transparent;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  z-index: 1000;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-links-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  background-color: transparent;
+}
+
+.nav-left {
+  justify-content: flex-start;
+  background-color: transparent;
+}
+
+.nav-right {
+  justify-content: flex-end;
+  background-color: transparent;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  background-color: transparent !important;
+}
+
+.nav-links li {
+  margin: 0 20px;
+  background-color: transparent;
+}
+
+.link-cv {
+    display: flex;
+    align-items: end;
+    background-color: inherit;
+}
+
+#nav-resume {
+  background-color: #d1d1d196;
+  border-radius: 25px;
+  padding: 5px 15px;
+  box-shadow: 0 3px 10px rgb(0, 0, 0, 0.2);
+  backdrop-filter: blur(3px);
+}
+
+.download-icon {
+    margin-left: 8px; /* Espace entre le texte et l'icône */
+    background-color: inherit;
+    fill: white;
+  }
+
+.nav-links a:hover {
+    text-shadow: 0 0 1px #fff; 
+}
+
+#nav-resume:hover {
+  background-color: #000000d5;
+  text-shadow: none;
+ 
+}
+
+.nav-component:hover a {
+  background-color: transparent;
+}
+
+.nav-reduced {
+  display: none;
+  cursor: pointer;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 21px;
+}
+
+
+.nav-reduced .line {
+  width: 25px;
+  height: 3px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0);
+  z-index: 5;
+}
+
+.overlay:active {
+  display: block;
+}
+
+@media screen and (max-width: 700px) {
+  .navbar {
+    background-color: #232323;
+  }
+  .nav-links-container {
+    display: none;
+    flex-direction: column;
+    width: 100vw;
+    position: absolute;
+    top: 45px;
+    left: 0;
+  }
+
+  .nav-links-container.active {
+    display: flex;
+
+    .nav-links {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .nav-component {
+      background-color: #232323;
+      padding: 10px;
+      padding-left: auto;
+      width: 100vw;
+      display: flex;
+      flex-direction: column;
+      margin: auto;
+      border-top: 1px solid #909090;
+    }
+
+    #nav-resume {
+      background-color: #232323;
+      border-radius: 0;
+      padding: 10px;
+      border-bottom: 1px solid #909090;
+    }
+    #nav-resume a {
+      background-color: #232323;
+    }
+
+    .nav-component:hover,
+    .nav-component:hover a {
+      background-color: black;
+    }
+
+    #nav-resume:hover,
+    #nav-resume:hover a {
+      background-color: black;
+    }
+  }
+
+  .nav-reduced {
+    display: flex;
+  }
+}
