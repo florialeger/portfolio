@@ -1,0 +1,143 @@
+.Fondu-container{
+    position: relative;
+    max-width: 500px;
+
+    z-index: -10;
+}
+.fondu-1{
+  position: fixed;
+  height: calc(350px + 5vw);
+  width: 90vw;
+  bottom: 0;
+  left: 5%;
+  background:  #8E67F4;
+  border-top-left-radius: calc(90px + 3vw);
+  border-top-right-radius: calc(90px + 3vw);
+}
+
+.fondu-2 {
+  position: fixed;
+  height: calc(340px + 4.8vw);
+  width: 88vw;
+  bottom: 0;
+  left: 6%;
+  background: #A576E4;
+  border-top-left-radius: calc(85px + 3vw);
+  border-top-right-radius: calc(85px + 3vw);
+}
+
+
+.fondu-3 {
+  position: fixed;
+  height: calc(330px + 4.6vw);
+  width: 86vw;
+  bottom: 0;
+  left: 7%;
+  background: #BB84D4;
+  border-top-left-radius: calc(80px + 3vw);
+  border-top-right-radius: calc(80px + 3vw);
+}
+
+.fondu-4 {
+  position: fixed;
+  height: calc(320px + 4.4vw);
+  width: 84vw;
+  bottom: 0;
+  left: 8%;
+  background: #D293C3;
+  border-top-left-radius: calc(75px + 3vw);
+  border-top-right-radius: calc(75px + 3vw);
+}
+
+.fondu-5 {
+  position: fixed;
+  height: calc(310px + 4.2vw);
+  width: 82vw;
+  bottom: 0;
+  left: 9%;
+  background: #E8A1B3;
+  border-top-left-radius: calc(70px + 3vw);
+  border-top-right-radius: calc(70px + 3vw);
+}
+
+.fondu-6 {
+  position: fixed;
+  height: calc(300px + 4vw);
+  width: 80vw;
+  bottom: 0;
+  left: 10%;
+  background: #FFB0A3;
+  border-top-left-radius: calc(65px + 3vw);
+  border-top-right-radius: calc(65px + 3vw);
+}
+
+.fondu-7 {
+  position: fixed;
+  height: calc(290px + 3.8vw);
+  width: 78vw;
+  bottom: 0;
+  left: 11%;
+  background: #FEB8AD;
+  border-top-left-radius: calc(60px + 3vw);
+  border-top-right-radius: calc(60px + 3vw);
+}
+
+.fondu-8 {
+  position: fixed;
+  height: calc(280px + 3.6vw);
+
+  width: 76vw;
+  bottom: 0;
+  left: 12%;
+  background: #FCC1B7;
+  border-top-left-radius: calc(55px + 3vw);
+  border-top-right-radius: calc(55px + 3vw);
+}
+
+.fondu-9 {
+  position: fixed;
+  height: calc(270px + 3.4vw);
+  width: 74vw;
+  bottom: 0;
+  left: 13%;
+  background: #FBC9C1;
+  border-top-left-radius: calc(50px + 3vw);
+  border-top-right-radius: calc(50px + 3vw);
+}
+
+.fondu-10 {
+  position: fixed;
+  height: calc(260px + 3.2vw);
+  width: 72vw;
+  bottom: 0;
+  left: 14%;
+  background: #FAD1CB;
+  border-top-left-radius: calc(45px + 3vw);
+  border-top-right-radius: calc(45px + 3vw);
+}
+
+.fondu-11 {
+  position: fixed;
+  height: calc(250px + 3vw);
+
+  width: 70vw;
+  bottom: 0;
+  left: 15%;
+  background: #F8DAD5;
+  border-top-left-radius: calc(40px + 3vw);
+  border-top-right-radius: calc(40px + 3vw);
+}
+
+.fondu-12 {
+  position: fixed;
+  height: calc(240px + 2vw);
+
+  width: 68vw;
+  bottom: 0;
+  left: 16%;
+  background: #F7E2DF;
+  border-top-left-radius: calc(35px + 3vw);
+  border-top-right-radius: calc(35px + 3vw);
+}
+
+

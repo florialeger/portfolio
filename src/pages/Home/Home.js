@@ -23,7 +23,7 @@ const Home = () => {
       <div
         className="background-overlay"
         style={{
-          backgroundColor: "rgba(0, 0, 0, 0.5)",
+          backgroundColor: "rgba(0, 0, 0, 0.6)",
           height: "100%",
           width: "100%",
           position: "absolute",

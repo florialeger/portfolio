@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./NavBar.css";
 import { Link } from "react-router-dom";
 
@@ -47,16 +47,7 @@ const NavBar = () => {
           <li className="nav-component" id="nav-resume">
             <Link to="/cv" onClick={closeNav} className="link-cv">
               Resume
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 24 24"
-                width="20"
-                height="20"
-                class="download-icon"
-                fill="currentColor"
-              >
-                <path d="M5 20h14v-2H5v2zm7-18L7 7h4v7h2V7h4l-5-5z" />
-              </svg>
+              <img src="/icon/download.svg" alt="download" className="download-icon" />
             </Link>
           </li>
         </ul>

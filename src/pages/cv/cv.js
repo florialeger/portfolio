@@ -1,14 +1,24 @@
 import React from "react";
+import Title from "../../components/Title/Title";
 
 const cv = () => {
   return (
-    <div className="cv-page">
-      <header>
-        <h1>CV</h1>
-      </header>
-      <main className="cv-page-main"></main>
-      <footer></footer>
-    </div>
+    <body className="cv-page">
+      <Title title = "cv"/>
+
+      <div
+        className="background-overlay"
+        style={{
+          backgroundColor: "#232323",
+          height: "100%",
+          width: "100%",
+          position: "absolute",
+          top: "0",
+          left: "0",
+          zIndex: "-1000",
+        }}
+      />
+    </body>
   );
 };
 

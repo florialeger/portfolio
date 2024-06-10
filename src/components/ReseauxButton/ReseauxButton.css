@@ -1,0 +1,88 @@
+.reseaux {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  bottom: 20px;
+  left: 40px;
+  background-color: transparent;
+  z-index: 1000;
+}
+
+.reseaux-reduced {
+  display: none;
+  cursor: pointer;
+}
+
+.reseaux-container ul,
+.reseaux-reduced ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 15px;
+  background-color: inherit;
+}
+
+.reseaux-container li,
+.reseaux-reduced li {
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+}
+
+.reseaux-container a,
+.reseaux-reduced a {
+  display: flex; /* Utilise flexbox pour aligner les éléments horizontalement */
+  align-items: center;
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: inherit;
+  padding: 10px 10px;
+  border-radius: 18px;
+  gap: 8px;
+  background-color: #efefef;
+  background: linear-gradient(#f7f6f6ad, #eae9e9b0);
+
+  border: 1px solid #e1e1e1b0;
+  backdrop-filter: blur(1px);
+  box-shadow: 0 2px 5px #00000032;
+
+
+}
+.reseaux-reduced a {
+  border-radius: 15px;
+}
+
+.insta-container:hover,
+.insta-reduced:hover {
+  background: linear-gradient(#e76185, #c444b7);
+  border: 1px solid #fd86b2;
+}
+.twitter-container:hover,
+.twitter-reduced:hover {
+  background: linear-gradient(#84afe1, #6f9fd5);
+  border: 1px solid #84afe1;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  background-color: transparent;
+}
+
+.reseaux-reduced .icon {
+  margin-right: 0;
+  background-color: transparent;
+}
+
+@media screen and (max-width: 700px) {
+  .reseaux-container {
+    display: none;
+  }
+
+  .reseaux-reduced {
+    display: flex;
+  }
+}
