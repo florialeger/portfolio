@@ -29,6 +29,7 @@
   display: flex;
   align-items: center;
   background-color: transparent;
+  
 }
 
 .reseaux-container a,
@@ -38,16 +39,16 @@
   text-decoration: none;
   font-size: 1.2rem;
   color: inherit;
-  padding: 10px 10px;
+  padding: 5px 10px;
   border-radius: 18px;
   gap: 8px;
   background-color: #efefef;
   background: linear-gradient(#f7f6f6ad, #eae9e9b0);
 
   border: 1px solid #e1e1e1b0;
-  backdrop-filter: blur(1px);
+  backdrop-filter: blur(4px);
   box-shadow: 0 2px 5px #00000032;
-
+  transition: 300ms;
 
 }
 .reseaux-reduced a {
@@ -55,15 +56,22 @@
 }
 
 .insta-container:hover,
-.insta-reduced:hover {
-  background: linear-gradient(#e76185, #c444b7);
-  border: 1px solid #fd86b2;
-}
+.insta-reduced:hover,
 .twitter-container:hover,
 .twitter-reduced:hover {
-  background: linear-gradient(#84afe1, #6f9fd5);
-  border: 1px solid #84afe1;
+  background: linear-gradient(#1a1a1a77, #2424249b);
+  border: 1px solid #212121cf;
+  color: #fff;
+
 }
+
+.insta-container:hover .icon,
+.insta-reduced:hover .icon,
+.twitter-container:hover .icon,
+.twitter-reduced:hover .icon {
+  stroke: #fff; /* Assurez-vous de cibler directement les icônes SVG */
+}
+
 
 .icon {
   width: 20px;

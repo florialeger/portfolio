@@ -53,17 +53,20 @@
 
 .link-cv {
   display: flex;
-  align-items: end;
+  align-items: center;
   background-color: inherit;
 }
 
 #nav-resume {
   background-color: #d1d1d196;
+
   border-radius: 25px;
   padding: 5px 15px;
   box-shadow: 0 3px 10px rgb(0, 0, 0, 0.2);
-  backdrop-filter: blur(3px);
-  transition: 100ms;
+  backdrop-filter: blur(4px);
+  border: 1px solid transparent;
+
+  transition: 200ms;
 }
 
 .download-icon {
@@ -76,7 +79,9 @@
 }
 
 #nav-resume:hover {
-  background-color: #000000d5;
+  background-color: #0000006f;
+  border: 1px solid #424242cf;
+
   text-shadow: none;
 }
 
