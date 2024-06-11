@@ -2,175 +2,184 @@
   position: relative;
   z-index: -10;
 }
+
 .fondu-1 {
-  position: fixed;
-  height: calc(350px + 5vw);
-  width: 90vw;
-  bottom: 0;
-  left: 5%;
   background: #8e67f4;
   border-top-left-radius: calc(90px + 3vw);
   border-top-right-radius: calc(90px + 3vw);
+  bottom: 0;
+  height: calc(350px + 5vw);
+  left: 5%;
+  position: fixed;
+  width: 90vw;
 }
 
 .fondu-2 {
-  position: fixed;
-  height: calc(340px + 4.8vw);
-  width: 88vw;
-  bottom: 0;
-  left: 6%;
   background: #a576e4;
   border-top-left-radius: calc(85px + 3vw);
   border-top-right-radius: calc(85px + 3vw);
+  bottom: 0;
+  height: calc(340px + 4.8vw);
+  left: 6%;
+  position: fixed;
+  width: 88vw;
 }
 
 .fondu-3 {
-  position: fixed;
-  height: calc(330px + 4.6vw);
-  width: 86vw;
-  bottom: 0;
-  left: 7%;
   background: #bb84d4;
   border-top-left-radius: calc(80px + 3vw);
   border-top-right-radius: calc(80px + 3vw);
+  bottom: 0;
+  height: calc(330px + 4.6vw);
+  left: 7%;
+  position: fixed;
+  width: 86vw;
 }
 
 .fondu-4 {
-  position: fixed;
-  height: calc(320px + 4.4vw);
-  width: 84vw;
-  bottom: 0;
-  left: 8%;
   background: #d293c3;
   border-top-left-radius: calc(75px + 3vw);
   border-top-right-radius: calc(75px + 3vw);
+  bottom: 0;
+  height: calc(320px + 4.4vw);
+  left: 8%;
+  position: fixed;
+  width: 84vw;
 }
 
 .fondu-5 {
-  position: fixed;
-  height: calc(310px + 4.2vw);
-  width: 82vw;
-  bottom: 0;
-  left: 9%;
   background: #e8a1b3;
   border-top-left-radius: calc(70px + 3vw);
   border-top-right-radius: calc(70px + 3vw);
+  bottom: 0;
+  height: calc(310px + 4.2vw);
+  left: 9%;
+  position: fixed;
+  width: 82vw;
 }
 
 .fondu-6 {
-  position: fixed;
-  height: calc(300px + 4vw);
-  width: 80vw;
-  bottom: 0;
-  left: 10%;
   background: #ffb0a3;
   border-top-left-radius: calc(65px + 3vw);
   border-top-right-radius: calc(65px + 3vw);
+  bottom: 0;
+  height: calc(300px + 4vw);
+  left: 10%;
+  position: fixed;
+  width: 80vw;
 }
 
 .fondu-7 {
-  position: fixed;
-  height: calc(290px + 3.8vw);
-  width: 78vw;
-  bottom: 0;
-  left: 11%;
   background: #feb8ad;
   border-top-left-radius: calc(60px + 3vw);
   border-top-right-radius: calc(60px + 3vw);
+  bottom: 0;
+  height: calc(290px + 3.8vw);
+  left: 11%;
+  position: fixed;
+  width: 78vw;
 }
 
 .fondu-8 {
-  position: fixed;
-  height: calc(280px + 3.6vw);
-
-  width: 76vw;
-  bottom: 0;
-  left: 12%;
   background: #fcc1b7;
   border-top-left-radius: calc(55px + 3vw);
   border-top-right-radius: calc(55px + 3vw);
+  bottom: 0;
+  height: calc(280px + 3.6vw);
+  left: 12%;
+  position: fixed;
+  width: 76vw;
 }
 
 .fondu-9 {
-  position: fixed;
-  height: calc(270px + 3.4vw);
-  width: 74vw;
-  bottom: 0;
-  left: 13%;
   background: #fbc9c1;
   border-top-left-radius: calc(50px + 3vw);
   border-top-right-radius: calc(50px + 3vw);
+  bottom: 0;
+  height: calc(270px + 3.4vw);
+  left: 13%;
+  position: fixed;
+  width: 74vw;
 }
 
 .fondu-10 {
-  position: fixed;
-  height: calc(260px + 3.2vw);
-  width: 72vw;
-  bottom: 0;
-  left: 14%;
   background: #fad1cb;
   border-top-left-radius: calc(45px + 3vw);
   border-top-right-radius: calc(45px + 3vw);
+  bottom: 0;
+  height: calc(260px + 3.2vw);
+  left: 14%;
+  position: fixed;
+  width: 72vw;
 }
 
 .fondu-11 {
-  position: fixed;
-  height: calc(250px + 3vw);
-
-  width: 70vw;
-  bottom: 0;
-  left: 15%;
   background: #f8dad5;
   border-top-left-radius: calc(40px + 3vw);
   border-top-right-radius: calc(40px + 3vw);
+  bottom: 0;
+  height: calc(250px + 3vw);
+  left: 15%;
+  position: fixed;
+  width: 70vw;
 }
 
 .fondu-12 {
-  position: fixed;
-  height: calc(240px + 2vw);
-
-  width: 68vw;
-  bottom: 0;
-  left: 16%;
   background: #f7e2df;
   border-top-left-radius: calc(35px + 3vw);
   border-top-right-radius: calc(35px + 3vw);
+  bottom: 0;
+  height: calc(240px + 2vw);
+  left: 16%;
+  position: fixed;
+  width: 68vw;
 }
 
 @media screen and (max-height: 500px) {
   .fondu-1 {
     bottom: -10vh;
   }
+
   .fondu-2 {
     bottom: -10vh;
   }
+
   .fondu-3 {
     bottom: -10vh;
   }
+
   .fondu-4 {
     bottom: -10vh;
   }
+
   .fondu-5 {
     bottom: -10vh;
   }
+
   .fondu-6 {
     bottom: -10vh;
   }
+
   .fondu-7 {
     bottom: -10vh;
   }
+
   .fondu-8 {
     bottom: -10vh;
   }
+
   .fondu-9 {
     bottom: -10vh;
   }
+
   .fondu-10 {
     bottom: -10vh;
   }
+
   .fondu-11 {
     bottom: -10vh;
   }
+
   .fondu-12 {
     bottom: -10vh;
   }

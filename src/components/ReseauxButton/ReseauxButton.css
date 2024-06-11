@@ -9,6 +9,7 @@
   z-index: 1000;
 }
 
+
 .reseaux-reduced {
   display: none;
   cursor: pointer;
@@ -57,6 +58,7 @@
 .twitter-container,
 .twitter-reduced {
   transition: 300ms;
+  
 }
 
 .insta-container:hover,
@@ -80,6 +82,8 @@
   width: 18px;
   height: 18px;
   background-color: transparent;
+  stroke : #232323;
+
 }
 
 

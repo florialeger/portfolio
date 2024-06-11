@@ -1,0 +1,19 @@
+.contact-link-container {
+  display: flex;
+  flex-direction: row;
+  gap: calc(14px + 2vw);
+  bottom: calc(365px + 5vw);
+  right: 15%;
+  position: fixed;
+  transition: right 1000ms;
+}
+
+@media screen and (max-width: 650px) {
+  .contact-link-container {
+    left: 0;
+    right: 0;
+    margin: auto;
+    position: absolute; /* Assurez-vous que le positionnement absolu est défini */
+    width: fit-content; 
+  }
+}

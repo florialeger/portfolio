@@ -1,0 +1,38 @@
+.contact-link {
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  min-width: min-content;
+  position: relative;
+  transition: 800ms;
+  width: fit-content;
+}
+
+.link-text {
+  background-color: transparent;
+  text-decoration: none;
+  font-size: calc(16px + 0.3vw);
+  padding-bottom: 5px;
+  color: white;
+  text-align: start;
+  text-shadow: 0 3px 15px rgb(0, 0, 0, 0.3);
+  width: fit-content;
+  transition: width 300ms;
+}
+
+.contact-link .underline-text {
+  background-color: #f5f5f5;
+  height: 2px;
+  border-radius: 5px;
+  transition: width 300ms;
+  width: 15px;
+}
+
+.contact-link:hover .underline-text {
+  width: 100%;
+  background-color: #f5aaff;
+}
+.contact-link:hover .link-text {
+  color: #f5aaff;
+  text-shadow: 0 0 1px #f5aaff;
+}

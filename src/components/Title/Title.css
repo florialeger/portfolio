@@ -1,34 +1,35 @@
 .title-container {
-  position: relative;
-  padding-top: 100px;
-  padding-left: 10vw;
-  width: fit-content;
-  min-width: min-content;
   background-color: transparent;
-  transition: 600ms;
   display: flex;
   flex-direction: column;
-}
-
-.underline-title {
-  width: 5vw;
-  background-color: #fff;
-  height: 2px;
-  transition: width 300ms;
+  min-width: min-content;
+  padding-left: 10vw;
+  padding-top: 100px;
+  position: relative;
+  transition: 600ms;
+  width: fit-content;
 }
 
 .title {
-  font-family: romantica, Haettenschweiler, Impact, "Arial Narrow", sans-serif;
-  letter-spacing: 0.3rem;
-  font-size: calc(2rem + 5vw);
-  width: fit-content;
-  color: white;
-  text-transform: uppercase;
-  text-align: start;
   background-color: transparent;
+  color: white;
+  font-family: romantica, Haettenschweiler, Impact, "Arial Narrow", sans-serif;
+  font-size: calc(2rem + 5vw);
+  letter-spacing: 0.3rem;
+  text-align: start;
   text-shadow: 0 3px 15px rgb(0, 0, 0, 0.3);
+  text-transform: uppercase;
+  width: fit-content;
 }
 
 .title-container:hover .underline-title {
   width: 100%;
+}
+
+.underline-title {
+  background-color: #fff;
+  height: 4px;
+  border-radius: 5px;
+  transition: width 300ms;
+  width: 5vw;
 }

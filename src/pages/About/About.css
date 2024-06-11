@@ -1,18 +1,18 @@
 .About-page {
   background-color: transparent;
-  position: relative;
   height: 100vh;
   overflow: hidden;
+  position: relative;
 }
 
 .img-container {
-  position: fixed;
-  top: 0;
-  right: -80px;
   height: 100vh;
-  width: fit-content;
-  transition: transform 1000ms;
   overflow: hidden;
+  position: fixed;
+  right: -80px;
+  top: 0;
+  transition: transform 1000ms;
+  width: fit-content;
 }
 
 .img-about {
@@ -22,49 +22,86 @@
 }
 
 .background-overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+  height: 100%;
+  left: 0;
   position: absolute;
   top: 0;
-  left: 0;
-  height: 100%;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.6);
   z-index: 0;
 }
-
-
 @media screen and (max-width: 1500px) {
-    .img-container {
-    transform: translateX(70px); 
-  }
+  .img-container {
+  transform: translateX(70px); 
+}
 }
 
 @media screen and (max-width: 1200px) {
-    .img-container {
+  .img-container {
+  transform: translateX(100px);
+}
+}
+
+@media screen and (max-width: 1100px) {
+  .img-container {
+  transform: translateX(150px); 
+}
+}
+
+@media screen and (max-width: 1000px) {
+  .img-container {
+  transform: translateX(200px); 
+}
+}
+
+
+@media screen and (max-width: 900px) {
+  .img-container {
+    transform: translateX(240px);
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .img-container {
+    transform: translateX(290px);
+  }
+}
+@media screen and (max-width: 750px) {
+  .img-container {
     transform: translateX(250px);
   }
 }
 
-@media screen and (max-width: 1000px) {
-    .img-container {
-    transform: translateX(350px); 
-  }
-}
-
-@media screen and (max-width: 750px) {
-    .img-container {
-    transform: translateX(450px); 
-  }
-}
-
 @media screen and (max-width: 600px) {
-    .img-container {
-    transform: translateX(30px); 
+  .img-container {
+    transform: translateX(10px);
+  }
+}
+@media screen and (max-width: 520px) {
+  .img-container {
+    transform: translateX(50px);
   }
 }
 
+@media screen and (max-width: 500px) {
+  .img-container {
+    transform: translateX(50px);
+  }
+}
 
 @media screen and (max-width: 400px) {
-    .img-container {
-    transform: translateX(60px); 
+  .img-container {
+    transform: translateX(50px);
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .img-container {
+    transform: translateX(60px);
+  }
+}
+@media screen and (max-width: 300px) {
+  .img-container {
+    transform: translateX(70px);
   }
 }

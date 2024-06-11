@@ -1,14 +1,11 @@
 .back-button {
-  position: fixed;
-  top: 55px;
-  left: 5vw;
   background-color: transparent;
   border: none;
-  cursor: pointer;/*ne fonctionne pas*/
-  z-index: 0;
-}
-
-.back-button  {
-  width: 30px;
+  cursor: pointer; /* fonctionne */
   height: 30px;
+  left: 5vw;
+  position: fixed;
+  top: 55px;
+  width: 30px;
+  z-index: 0;
 }
