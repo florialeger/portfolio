@@ -2,13 +2,14 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 15px 30px;
+  padding: 10px 30px 5px 30px;
   position: fixed;
-  background-color: transparent;
+  background-color: #1b1b1b00;
   left: 0;
   top: 0;
   width: 100vw;
   z-index: 1000;
+  transition: background-color 400ms;
 }
 
 .nav-links {
@@ -51,10 +52,11 @@
   background-color: transparent;
 }
 
-.link-cv {
+.nav-links .link-cv {
   display: flex;
   align-items: center;
-  background-color: inherit;
+  background-color: transparent;
+  text-shadow: none;
 }
 
 #nav-resume {
@@ -81,8 +83,6 @@
 #nav-resume:hover {
   background-color: #0000006f;
   border: 1px solid #424242cf;
-
-  text-shadow: none;
 }
 
 .nav-component:hover a {
@@ -121,7 +121,8 @@
 
 @media screen and (max-width: 700px) {
   .navbar {
-    background-color: #232323;
+    background-color: #1a1a1a;
+    padding: 12px 30px;
   }
 
   .download-icon {
@@ -146,7 +147,7 @@
     }
 
     .nav-component {
-      background-color: #232323;
+      background-color: #171717;
       padding: 10px 20px;
       padding-left: auto;
       width: 100vw;
@@ -157,23 +158,22 @@
     }
 
     #nav-resume {
-      background-color: inherit;
+      background-color: #1717177c;
       border-radius: 0;
       padding: 10px 20px;
       border-bottom: 1px solid #909090;
+      border-top: 1px solid #909090;
     }
     #nav-resume a {
       background-color: transparent;
     }
 
-    .nav-component:hover,
-    .nav-component:hover a {
+    .nav-component:hover {
       background-color: black;
     }
 
-    #nav-resume:hover,
-    #nav-resume:hover a {
-      background-color: black;
+    #nav-resume:hover {
+      background-color: #171717bc;
     }
   }
 

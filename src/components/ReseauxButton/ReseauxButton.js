@@ -1,33 +1,34 @@
 import React, { useState } from "react";
 import "./ReseauxButton.css";
+import { ReactComponent as TwitterIcon } from "../../icon/twitter.svg";
+import { ReactComponent as InstagramIcon } from "../../icon/instagram.svg";
 
 function ReseauxButton() {
-  const [isReseauOpen, setIsReseauOpen] = useState(false);
 
   return (
     <nav className="reseaux">
       <div className="reseaux-container">
         <ul>
-          <li >
+          <li>
             <a
               href="https://www.instagram.com/floria.leger"
               target="_blank"
               rel="noopener noreferrer"
               className="insta-container"
             >
-              <img src="/icon/instagram.svg" alt="Instagram" className="icon" />{" "}
-              instagram
+              <InstagramIcon className="icon" />
+              Instagram
             </a>
           </li>
-          <li >
+          <li>
             <a
               href="https://twitter.com/juju999999997"
               target="_blank"
               rel="noopener noreferrer"
               className="twitter-container"
             >
-              <img src="/icon/twitter.svg" alt="Twitter" className="icon" />{" "}
-              twitter
+              <TwitterIcon className="icon" />
+              Twitter
             </a>
           </li>
         </ul>
@@ -35,7 +36,7 @@ function ReseauxButton() {
 
       <div className="reseaux-reduced">
         <ul>
-          <li >
+          <li>
             {" "}
             <a
               href="https://www.instagram.com/floria.leger"
@@ -43,17 +44,18 @@ function ReseauxButton() {
               rel="noopener noreferrer"
               className="insta-reduced"
             >
-              <img src="/icon/instagram.svg" alt="Instagram" className="icon" />
+              <InstagramIcon className="icon" />
+              
             </a>
           </li>
-          <li >
+          <li>
             <a
               href="https://twitter.com/juju999999997"
               target="_blank"
               rel="noopener noreferrer"
               className="twitter-reduced"
             >
-              <img src="/icon/twitter.svg" alt="Twitter" className="icon" />
+              <TwitterIcon className="icon" />
             </a>
           </li>
         </ul>

@@ -5,7 +5,7 @@
   position: fixed;
   bottom: 20px;
   left: 40px;
-  background-color: transparent;
+  background: transparent;
   z-index: 1000;
 }
 
@@ -21,15 +21,14 @@
   margin: 0;
   display: flex;
   gap: 15px;
-  background-color: inherit;
+  background: inherit;
 }
 
 .reseaux-container li,
 .reseaux-reduced li {
   display: flex;
   align-items: center;
-  background-color: transparent;
-  
+  background: transparent;
 }
 
 .reseaux-container a,
@@ -42,48 +41,47 @@
   padding: 5px 10px;
   border-radius: 18px;
   gap: 8px;
-  background-color: #efefef;
   background: linear-gradient(#f7f6f6ad, #eae9e9b0);
-
-  border: 1px solid #e1e1e1b0;
+  border: 1px solid #c3c3c3b0;
   backdrop-filter: blur(4px);
   box-shadow: 0 2px 5px #00000032;
-  transition: 300ms;
-
 }
+
 .reseaux-reduced a {
-  border-radius: 15px;
+  border-radius: 13px;
+  padding: 7px 7px;
+}
+
+.insta-container,
+.insta-reduced,
+.twitter-container,
+.twitter-reduced {
+  transition: 300ms;
 }
 
 .insta-container:hover,
 .insta-reduced:hover,
 .twitter-container:hover,
 .twitter-reduced:hover {
-  background: linear-gradient(#1a1a1a77, #2424249b);
-  border: 1px solid #212121cf;
-  color: #fff;
-
+  background: linear-gradient(#161616d8, #000000df);
+  border: 1px solid #282828;
+  color: #f7f6f6e8;
 }
 
 .insta-container:hover .icon,
 .insta-reduced:hover .icon,
 .twitter-container:hover .icon,
 .twitter-reduced:hover .icon {
-  stroke: #fff; /* Assurez-vous de cibler directement les icônes SVG */
+  stroke: #f7f6f6e8;
+  color: transparent;
 }
 
-
-.icon {
-  width: 20px;
-  height: 20px;
-  margin-right: 5px;
+.reseaux-container .icon, .reseaux-reduced .icon {
+  width: 18px;
+  height: 18px;
   background-color: transparent;
 }
 
-.reseaux-reduced .icon {
-  margin-right: 0;
-  background-color: transparent;
-}
 
 @media screen and (max-width: 700px) {
   .reseaux-container {

@@ -1,4 +1,5 @@
 import React from "react";
+import './Contact.css';
 import Title from "../../components/Title/Title";
 import Fondu from "../../components/Fondu/Fondu";
 

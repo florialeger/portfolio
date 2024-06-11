@@ -1,6 +1,8 @@
 import React from "react";
 import "./BackButton.css";
 import { useNavigate } from "react-router-dom";
+import { ReactComponent as BackIcon } from "../../icon/chevron-left.svg";
+
 
 function BackButton() {
   const navigate = useNavigate();
@@ -11,7 +13,7 @@ function BackButton() {
   return (
    
       <button className="back-button" onClick={handleBack}>
-        <img src="/icon/chevron-left.svg" alt="back" className="icon" />
+        <BackIcon className="icon" alt="back"/>
       </button>
     
   );

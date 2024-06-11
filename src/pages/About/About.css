@@ -1,0 +1,70 @@
+.About-page {
+  background-color: transparent;
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.img-container {
+  position: fixed;
+  top: 0;
+  right: -80px;
+  height: 100vh;
+  width: fit-content;
+  transition: transform 1000ms;
+  overflow: hidden;
+}
+
+.img-about {
+  height: 100vh;
+  object-fit: cover;
+  z-index: -10;
+}
+
+.background-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 0;
+}
+
+
+@media screen and (max-width: 1500px) {
+    .img-container {
+    transform: translateX(70px); 
+  }
+}
+
+@media screen and (max-width: 1200px) {
+    .img-container {
+    transform: translateX(250px);
+  }
+}
+
+@media screen and (max-width: 1000px) {
+    .img-container {
+    transform: translateX(350px); 
+  }
+}
+
+@media screen and (max-width: 750px) {
+    .img-container {
+    transform: translateX(450px); 
+  }
+}
+
+@media screen and (max-width: 600px) {
+    .img-container {
+    transform: translateX(30px); 
+  }
+}
+
+
+@media screen and (max-width: 400px) {
+    .img-container {
+    transform: translateX(60px); 
+  }
+}

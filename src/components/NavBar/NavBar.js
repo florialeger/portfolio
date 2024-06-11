@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from "react";
 import "./NavBar.css";
 import { Link } from "react-router-dom";
+import { ReactComponent as DownloadIcon } from "../../icon/download.svg";
+
 
 const NavBar = () => {
   const [isNavOpen, setIsNavOpen] = useState(false);
@@ -47,7 +49,7 @@ const NavBar = () => {
           <li className="nav-component" id="nav-resume">
             <Link to="/cv" onClick={closeNav} className="link-cv">
               Resume
-              <img src="/icon/download.svg" alt="download" className="download-icon" />
+              <DownloadIcon alt="download" className="download-icon" />
             </Link>
           </li>
         </ul>
