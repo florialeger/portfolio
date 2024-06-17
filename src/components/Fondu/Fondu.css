@@ -1,5 +1,5 @@
 .Fondu-container {
-  position: relative;
+  position: absolute;
   z-index: -10;
 }
 

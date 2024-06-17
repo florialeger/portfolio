@@ -8,12 +8,27 @@
   transition: right 1000ms;
 }
 
+@media screen and (max-width: 850px) {
+  .contact-link-container {
+    right: 20%;
+  }
+}
+@media screen and (max-width: 750px) {
+  .contact-link-container {
+    right: 25%;
+  }
+}
+@media screen and (max-width: 700px) {
+  .contact-link-container {
+    right: 35%;
+  }
+}
 @media screen and (max-width: 650px) {
   .contact-link-container {
     left: 0;
     right: 0;
     margin: auto;
     position: absolute; /* Assurez-vous que le positionnement absolu est défini */
-    width: fit-content; 
+    width: fit-content;
   }
 }

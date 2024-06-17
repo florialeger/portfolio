@@ -1,24 +1,15 @@
 import React from "react";
 import Title from "../../components/Title/Title";
+import ImageCarousel from "../../components/ImageCarousel/ImageCarousel";
 
 const Portfolio = () => {
   return (
-    <body className="Portfolio-page">
+    <div className="portfolio-page">
       <Title title="Portfolio" />
-
-      <div
-        className="background-overlay"
-        style={{
-          backgroundColor: "#232323",
-          height: "100%",
-          width: "100%",
-          position: "absolute",
-          top: "0",
-          left: "0",
-          zIndex: "-1000",
-        }}
-      />
-    </body>
+      <div className="portfolio-content">
+        <ImageCarousel />
+      </div>
+    </div>
   );
 };
 

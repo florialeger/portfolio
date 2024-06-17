@@ -1,0 +1,10 @@
+.background-overlay {
+  background: rgba(0, 0, 0, 0.4);
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 0;
+  transition: background 300ms;
+}

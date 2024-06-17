@@ -1,20 +1,5 @@
-#root {
-  display: flex;
-
+.App {
+  max-width: 100%;
 }
 
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family:  'Inter', "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-}
-
-body {
-  background-color: #232323;
-  min-width: 320px; /* Taille minimale conventionnelle pour les appareils mobiles */
-  min-height: 480px; /* Taille minimale conventionnelle pour les appareils mobiles */
-  overflow: auto; /* Assurez-vous que le contenu dépasse correctement si nécessaire */
-}
 

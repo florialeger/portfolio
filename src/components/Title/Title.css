@@ -1,17 +1,18 @@
 .title-container {
-  background-color: transparent;
+  background: transparent;
   display: flex;
   flex-direction: column;
   min-width: min-content;
-  padding-left: 10vw;
-  padding-top: 100px;
+  margin-left: 10%;
+  margin-top: 100px;
   position: relative;
   transition: 600ms;
   width: fit-content;
 }
 
 .title {
-  background-color: transparent;
+  margin: 0;
+  background: inherit;
   color: white;
   font-family: romantica, Haettenschweiler, Impact, "Arial Narrow", sans-serif;
   font-size: calc(2rem + 5vw);

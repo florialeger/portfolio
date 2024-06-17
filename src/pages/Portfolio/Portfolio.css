@@ -1,0 +1,11 @@
+.portfolio-page {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+
+  }
+  .portfolio-content {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
